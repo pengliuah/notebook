@@ -1,0 +1,1 @@
+df -lh | sed -n 4p | awk '{print $4}'
